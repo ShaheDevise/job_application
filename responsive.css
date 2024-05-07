@@ -1,0 +1,53 @@
+@media (max-width: 477px) {
+
+    body{
+        background: #fff;
+    }
+
+    form {
+        background: transparent;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    form h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    form p {
+        text-align: center;
+    }
+
+    .columnRow {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0.5rem;
+        margin: 0.2rem 0;
+    }
+
+    .input_group :where(input, select) {
+        background: #f6f6f6;
+    }
+
+    .mgb{
+        margin-bottom: 0.5rem;
+    }
+
+    .foooterFlex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .footerImg {
+        max-width: 85px;
+        height: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+}

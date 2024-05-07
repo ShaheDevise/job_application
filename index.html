@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <h1>Job Application</h1>
+        <p>Pleace complete the form bellow to apply for a position with us.</p>
+
+        <hr>
+
+        <input type="hidden" name="access_key" value="4044be7a-9f59-4485-a0c0-d03782d43749">
+
+        <div class="column">
+
+            <label class="label" for="fullname">Full Name<span>*</span></label>
+
+            <div class="columnRow">
+
+                <div class="input_group">
+                    <input type="text" name="fullname" id="fullname" autocomplete="off" required>
+                    <small>First Name</small>                     
+                </div>
+
+                <div class="input_group">
+                    <input type="text" name="middlename" autocomplete="off" required>
+                    <small>Middle Name</small>                        
+                </div>
+
+                <div class="input_group">
+                    <input type="text" name="lastname" autocomplete="off" required>
+                    <small>Last Name</small>                        
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- 2 -->
+        <div class="column">
+
+            <label class="label">Birth Date<span>*</span></label>
+
+            <div class="columnRow">
+
+                <div class="input_group">
+                    <select name="month" id="select" required>
+
+                        <option value="select" hidden></option>
+                        <option value="january">January</option>
+                        <option value="frbruary">February</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="august">August</option>
+                        <option value="september">September</option>
+                        <option value="october">October</option>
+                        <option value="november">November</option>
+                        <option value="december">December</option>
+
+                    </select>
+                    <small>Month</small>                     
+                </div>
+
+                <div class="input_group">
+                    <select name="day" id="select" required>
+
+                        <option value="select" hidden></option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+
+                    </select>
+                    <small>Day</small>                        
+                </div>
+
+                <div class="input_group">
+                    <select name="year" id="select" required>
+
+                        <option value="select" hidden></option>
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1992</option>
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                        <option value="1995">1995</option>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        <option value="2005">2005</option>
+                        <option value="2006">2006</option>
+                        <option value="2007">2007</option>
+                        <option value="2008">2008</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+
+                    </select>
+                    <small>Year</small>                        
+                </div>
+
+            </div>
+
+        </div>
+        <!-- 2 -->
+
+        <div class="input_group">
+
+            <label class="label" for="address">Current Address<span>*</span></label>
+
+            <div class="addressInput">
+                <input class="address" type="text" name="address" id="address" autocomplete="off" required>
+                <small>Street Address</small>
+            </div>
+
+        </div>
+        
+        <div class="input_group">
+
+            <div class="addressInput">
+                <input class="address" type="text" name="address2" id="address" autocomplete="off">
+                <small>Street Address Line 2</small>
+            </div>
+
+        </div>
+
+        <div class="column">
+
+            <div class="columnRow col2">
+
+                <div class="input_group mgb">
+                    <input type="text" name="city" autocomplete="off" required>
+                    <small>City</small>                        
+                </div>
+
+                <div class="input_group">
+                    <input type="text" name="state" autocomplete="off">
+                    <small>State / Province</small>                        
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="btns_group">
+            <button type="reset" class="reset">Reset</button>
+            <button type="submit" class="continue">Continue</button>
+        </div>
+
+    </form>
+
+    <footer>
+
+        <div class="foooterFlex">
+
+            <a href="#"><img src="siseam.png" alt="Logo" class="footerImg"></a>
+
+            <div class="links">
+                <ul>
+                    <li><a href="#">Privecy</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Members</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
